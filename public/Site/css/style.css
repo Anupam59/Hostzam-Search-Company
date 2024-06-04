@@ -1,0 +1,131 @@
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.main-search {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+a:hover {
+    color: #d46c1c;
+}
+.logo {
+    margin-bottom: 1rem;
+}
+.search-form {
+    max-width: 584px;
+    margin: 0 auto;
+}
+.search_data {
+    height: 48px;
+    border-radius: 24px !important;
+}
+.input-group .search-btn {
+    right: 10px;
+    top: 5%;
+    z-index: 2222;
+    height: 42px;
+    position: absolute;
+}
+.search-btn {
+    height: 48px;
+    border-radius: 24px !important;
+    color: #5f6368;
+}
+.input-group .search-btn1 {
+    top: 12%;
+}
+.logo_details {
+    height: 50px;
+}
+.search_data_details {
+    width: 600px;
+    margin: 0;
+}
+.search-form .form-control:focus, .input-group>.form-control:hover, .input-group>.form-select:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    border-bottom-left-radius: 24px;
+}
+.search-product-inner {
+    position: absolute;
+    top: 102%;
+    z-index: 1;
+    background: #fff;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 4px 6px rgba(32,33,36,.28);
+    border: 0;
+    max-height: 400px;
+    overflow: auto;
+    width: 100%;
+    border-radius: 0 0 24px 24px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #757575;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+.navbar {
+    border-bottom: 1px solid #dadce0;
+}
+.search-results-title {
+    font-size: 18px;
+    color: #70757a;
+}
+.search-results-keyword {
+    color: #70757a;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Google Sans,arial,sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0;
+    padding-right: 8px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.company-title {
+    padding-top: 5px;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.main-search-deatails .result:hover {
+    background: #f1f1f1;
+}
+.main-search-deatails .result {
+    transition: .3s linear;
+}
+.meta_social_box .meta_social_link {
+    font-family: arial,sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4d5156;
+}
+.details-img {
+    width: 36px;
+    height: 36px;
+}
